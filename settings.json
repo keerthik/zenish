@@ -50,10 +50,6 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.revealIfOpen": true,
     "omnisharp.useGlobalMono": "always",
-    // "workbench.colorCustomizations": {
-    //     "editorError.foreground": "default",
-    //     "editorWarning.foreground": "default"
-    // },
     "zenMode.hideStatusBar": true,
     "editor.gotoLocation.multipleReferences": "goto",
     "editor.gotoLocation.multipleImplementations": "goto",
