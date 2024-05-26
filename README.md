@@ -9,14 +9,14 @@ The core goal of these settings files is to quickly toggle between a "soft" zen 
 
 Obviously, you are free to use these modes however you like.
 
-Depends on the [settings cycler VSCode plugin](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to toggle between zen-ish and debug mode.
+Depends on the [settings cycler VSCode extension](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to toggle between zen-ish and debug mode.
 
 ## Usage
 
 - Install [Settings Cycler extension](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler)
-- clone repo
-- [recommended] hand-merge your VSCode settings into `settings.json` and `keybindings.json`, if you have any.
-- from the cloned repo folder:
+- Clone/fork this repo
+- [recommended] Hand-merge your VSCode settings into the `settings.json` and `keybindings.json` in the repo folder, if you have any.
+- From the repo folder root (macOS, will be different on other OSs):
 
 ```
 rm -rf ~/Library/Application\ Support/Code/User/settings.json
