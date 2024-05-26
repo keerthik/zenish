@@ -1,15 +1,32 @@
+# Note
+I created this mostly for personal use when setting up new machines.
+
 # VSCode settings & hotkeys
 
 The built-in VSCode Zen mode introduced in 2016 is great, but not as customizable as the rest of Code settings.
 
-The core goal of these settings files is to quickly toggle between a "soft" zen mode (I call it "Zen-ish") and full debug mode — the former useful when focusing on writing new functionality (or writing prose) and the latter when debugging, enforcing style guides or evaluating code. The quick toggle is helpful when wanting compiler features like codelens or code error highlighting temporarily while writing new functionality.
+The core goal of these settings files is to quickly toggle between a "soft" zen mode (I call it "Zen-ish") and full debug mode — the former useful when focusing on writing new functionality (or writing text) and the latter when debugging, enforcing style guides or evaluating code. The quick toggle is helpful when wanting compiler features like codelens or code error highlighting temporarily while writing new functionality.
 
 Obviously, you are free to use these modes however you like.
 
 Depends on the [settings cycler VSCode plugin](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to toggle between zen-ish and debug mode.
 
+## Usage
+
+- Install [Settings Cycler extension](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler)
+- clone repo
+- [recommended] hand-merge your VSCode settings into `settings.json` and `keybindings.json`, if you have any.
+- from the cloned repo folder:
+
+```
+rm -rf ~/Library/Application\ Support/Code/User/settings.json
+rm -rf ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+```
+
 ## Zen-ish mode
-No line numbers, bracket guides, indentation guides, VSCode status bar, VSCode "code-lens" annotations on the code.
+No line numbers, bracket guides, indentation guides, VSCode window status bar, command palette, layout buttons, and Codelens annotations (eg: function reference count) on the code.
 
 Compiler errors and warnings are shown in a very dim theme (against a dark mode background) so as to be minimally distracting.
 
