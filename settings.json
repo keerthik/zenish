@@ -29,6 +29,7 @@
                 "workbench.colorCustomizations": {
                     "editorError.foreground": "default",
                     "editorWarning.foreground": "default",
+                    "editorOverviewRuler.errorForeground": "default",
                 },
             },
             {
@@ -42,6 +43,7 @@
                 "workbench.colorCustomizations": {
                     "editorError.foreground": "#573243",
                     "editorWarning.foreground": "#224033",
+                    "editorOverviewRuler.errorForeground": "#573243",
                 },
             }]
     }],
@@ -70,7 +72,8 @@
     "editor.inlineSuggest.enabled": true,
     "workbench.colorCustomizations": {
         "editorError.foreground": "default",
-        "editorWarning.foreground": "default"
+        "editorWarning.foreground": "default",
+        "editorOverviewRuler.errorForeground": "default"
     },
     "eppz-code.disableAnalytics": true,
     "editor.guides.highlightActiveBracketPair": true,

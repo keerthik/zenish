@@ -13,7 +13,9 @@
     { "key": "cmd+8",           "command": "workbench.action.openEditorAtIndex8" },
     { "key": "cmd+9",           "command": "workbench.action.openEditorAtIndex9" },
     { "key": "cmd+0",           "command": "-workbench.action.quickOpenLeastRecentlyUsedEditor" },
-    { "key": "ctrl+cmd+f",      "command": "editor.action.formatDocument"},
+    { "key": "ctrl+shift+f",    "command": "editor.action.formatDocument"},
+    { "key": "ctrl+alt+f",      "command": "editor.unfoldAll"},
+    { "key": "ctrl+cmd+f",      "command": "editor.foldAllExcept"},
     { "key": "ctrl+shift+l",    "command": "settings.cycle.codeLens" },
     { "key": "ctrl+m",          "command": "editor.action.jumpToBracket", "when": "editorTextFocus" },
     { "key": "shift+cmd+\\",    "command": "-editor.action.jumpToBracket", "when": "editorTextFocus"
